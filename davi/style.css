@@ -1,0 +1,43 @@
+.container {
+    height: 100vh;
+    display: grid; 
+    grid-template-columns: 0.9fr 1.1fr 1.1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "grid-item1 grid-item1 grid-item1 grid-item1 grid-item1 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2"
+      "grid-item3 grid-item3 grid-item3 grid-item3 grid-item4 grid-item4 grid-item4 grid-item4 grid-item5 grid-item5 grid-item5 grid-item5"
+      "grid-item6 grid-item6 grid-item6 grid-item7 grid-item7 grid-item7 grid-item8 grid-item8 grid-item8 grid-item9 grid-item9 grid-item9"; 
+  }
+  .grid-item1 { grid-area: grid-item1; 
+background:url(Без\ названия.jfif) no-repeat center;
+background-size:cover;
+}
+  .grid-item2 { grid-area: grid-item2; 
+    background:url(./Donatello_2003.jpg) no-repeat center;
+    background-size:cover;}
+  .grid-item3 { grid-area: grid-item3;
+    background:url(./Raphael_2003.jpg) no-repeat center;
+    background-size:cover; }
+  .grid-item4 { grid-area: grid-item4;
+    background:url(./Red_Michelangelo.jpg) no-repeat center;
+    background-size:cover; }
+  .grid-item5 { grid-area: grid-item5; 
+    background:url(./2003tmntscreenshot.jpg) no-repeat center;
+    background-size:cover;}
+  .grid-item6 { grid-area: grid-item6;
+    background:url(./141169.700xp.jpg) no-repeat center;
+background-size:cover;
+ }
+  .grid-item7 { grid-area: grid-item7;
+    background:url(./44501_1_990x557.jpeg.crdownload) no-repeat center;
+    background-size:cover;
+}
+  .grid-item8 { grid-area: grid-item8;
+    background:url(./TMNT.jpeg) no-repeat center;
+    background-size:cover;
+}
+  .grid-item9 { grid-area: grid-item9;
+    background:url(./thumbnail-tw-20180622101702-2888.jpg) no-repeat center;
+    background-size:cover;
+}
